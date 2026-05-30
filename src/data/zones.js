@@ -1,13 +1,14 @@
 /**
- * Phase 1 hardcoded test zones — Fairfax County, VA.
+ * Phase 1 test zones — Mohali Sector 70 area (local field testing).
+ * Original client zones (Fairfax VA) are in zones.fairfax.js for production delivery.
  * Phase 2 replaces this array with a database query using the same interface.
  */
 const ZONES = [
   {
     id: "zone-1",
-    name: "Zone 1",
-    lat: 38.760662,
-    lng: -77.144333,
+    name: "Zone 1 — Sector 70 Center",
+    lat: 30.69822,
+    lng: 76.71476,
     parcelType: "commercial",
     payload: {
       status: "success",
@@ -18,9 +19,9 @@ const ZONES = [
   },
   {
     id: "zone-2",
-    name: "Zone 2",
-    lat: 38.763207,
-    lng: -77.139872,
+    name: "Zone 2 — Sector 69 Side",
+    lat: 30.7025,
+    lng: 76.7152,
     parcelType: "residential",
     payload: {
       status: "success",
@@ -31,9 +32,9 @@ const ZONES = [
   },
   {
     id: "zone-3",
-    name: "Zone 3",
-    lat: 38.768236,
-    lng: -77.138877,
+    name: "Zone 3 — Sector 71 Side",
+    lat: 30.6978,
+    lng: 76.7201,
     parcelType: "residential",
     payload: {
       status: "success",
